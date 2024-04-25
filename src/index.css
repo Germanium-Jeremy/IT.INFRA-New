@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes grow {
+     0% { transform: scale(1.02); transition: 2s;}
+     10% { transform: scale(1); transition: 2s;}
+     20% { transform: scale(1.02); transition: 2s;}
+     30% { transform: scale(1); transition: 2s;}
+     40% { transform: scale(1.02); transition: 2s;}
+     50% { transform: scale(1); transition: 2s;}
+     60% { transform: scale(1.02); transition: 2s;}
+     70% { transform: scale(1); transition: 2s;}
+     80% { transform: scale(1.02); transition: 2s;}
+     90% { transform: scale(1); transition: 2s;}
+     100% { transform: scale(1.02); transition: 2s;}
+}
+
+*::-webkit-scrollbar{
+     display: none;
+}
